@@ -1,6 +1,4 @@
 import turtle
-import shapely
-import time
 from shapely.geometry import Polygon, Point
 from math import sqrt, sin, cos, radians
 
@@ -10,12 +8,10 @@ turtle.left(90)
 turtle.speed(0)
 list = []
 overlap = input("Do you want the leaves to overlap?(Y or N)")
-if (overlap == 'Y'):
+if overlap == 'Y':
     overlap = True
 else:
     overlap = False
-time.sleep(10)
-
 
 # x, y is the bottom left
 # turtle should always be pointing up
