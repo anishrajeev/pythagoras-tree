@@ -1,0 +1,3 @@
+#!/Users/anish/PycharmProjects/pythagoras-tree/venv/bin/python
+from numba.pycc import main
+main()
